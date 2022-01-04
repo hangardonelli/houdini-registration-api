@@ -1,0 +1,35 @@
+{
+    "rutas":{
+        "registro": "/registro"
+    },
+    "requiereConfirmacionPassword": true,
+    "requiereActivacion": false,
+    "port": 8081,
+    "postgres": {
+        "host": "host",
+        "port": 5432,
+        "user": "dbuser",
+        "password": "dbpassword",
+        "db": "dbname" 
+    },
+    "aprobaciones":{
+        "es": true,
+        "en": false
+    },
+    "longitudes":{
+        "nickname":{
+            "min": 4,
+            "max": 12
+        },
+        "password":{
+            "min": 5,
+            "max": 12
+        }
+        
+    },
+    "mail":{
+        "soloPermitidos": true,
+        "permitidos": ["@gmail", "@hotmail", "@icloud", "@yahoo", "@live"]
+    }
+    
+}
